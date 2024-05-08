@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 15px auto;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.header input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+  height: 54px;
+  border-radius: 8px;
+}
+
+.header input:focus {
+  outline: 2px solid #f44226;
+}
+
+.header #btnGet {
+  width: 140px;
+  text-align: center;
+  margin-left: 10px;
+  height: 54px;
+  line-height: 54px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  background-color: #f44226;
+  border-radius: 8px;
+}
+
+.container .data {
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.container .data .box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.container .data .box:not(:last-child) {
+  margin-bottom: 5px;
+}
+.container .data .box a,
+.container .data .box span {
+  float: right;
+  margin-left: 4px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  width: 80px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.container .data .box a {
+  background-color: #e91e63;
+  text-decoration: none;
+}
+
+.container .data .box span {
+  background-color: #009688;
+}
